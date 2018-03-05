@@ -10,7 +10,7 @@ operators = {
 	'S': sum,
 	'!': operator.mul,
         'C': operator.add,
-        '^': operator.pow,
+        #'^': operator.pow,
 }
 
 def factorial(arg):
