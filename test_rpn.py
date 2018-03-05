@@ -41,6 +41,6 @@ class TestBasics(unittest.TestCase):
 	def test_cube(self):
 		result = rpn.calculate('10 3 ^')
 		self.assertEqual(1000, result)
-        def test_exp(self):
-                result = rpn.calculate('250 0 ^')
-                self.assertEqual(1, result)
+	def test_exp(self):
+		result = rpn.calculate('250 0 ^')
+		self.assertEqual(1, result)
